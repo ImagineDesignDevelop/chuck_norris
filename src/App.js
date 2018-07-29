@@ -40,7 +40,7 @@ class App extends Component {
             <div className="col col-md-8">
               <img className="cn_image" src={image} alt="Chuck Norris" />
               <p className="joke">{this.state.joke}</p>
-              <button className="btn btn-primary btn-lg" onClick={this.next}>Next Joke</button>
+              <button className="btn btn-primary btn-lg" onClick={this.next}>Next Joke..</button>
             </div>
           </div>
         </div>
