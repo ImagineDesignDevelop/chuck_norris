@@ -14,7 +14,7 @@ class App extends Component {
 
   componentDidMount() {
     const th = this;
-      axios.get('http://api.icndb.com/jokes/random')
+      axios.get('https://api.icndb.com/jokes/random')
         .then(function(event) {    
           th.setState({
             joke: JSON.stringify(event.data.value.joke)
@@ -24,7 +24,7 @@ class App extends Component {
 
   next() {
     const next = this
-      axios.get('http://api.icndb.com/jokes/random')
+      axios.get('https://api.icndb.com/jokes/random')
         .then(function(event) {    
           next.setState({
             joke: JSON.stringify(event.data.value.joke)
