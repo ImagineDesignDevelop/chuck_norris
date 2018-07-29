@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300");
+html {
+  /* Adjust font size */
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* Font varient */
+  font-variant-ligatures: none;
+  -webkit-font-variant-ligatures: none;
+  /* Smoothing */
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #333333;
+}
+
+.btn {
+  border-radius: 0;
+}
+.btn.btn-primary {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #ffffff;
+  padding: 15px 30px;
+}
+.btn.btn-primary :hover, .btn.btn-primary :focus {
+  background-color: red;
+}
+.btn.btn-primary.btn-primary:hover, .btn.btn-primary.btn-primary:focus {
+  font-size: 120%;
+}
+.btn.btn-secondary {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #0e171c;
+  padding: 15px 30px;
+}
+.btn.btn-secondary :hover, .btn.btn-secondary :focus {
+  background-color: red;
+}
+.btn.btn-secondary.btn-secondary:hover, .btn.btn-secondary.btn-secondary:focus {
+  font-size: 120%;
+}
+.btn.btn-youtube {
+  background-color: #e52d27;
+  border: 3px solid #b31217;
+  padding: 15px 30px;
+  color: #ffffff;
+  border: none;
+}
+.btn.btn-youtube.btn-youtube:hover, .btn.btn-youtube.btn-youtube:focus {
+  background-color: #b31217;
+  color: #ffffff;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .joke {
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 2em;
+}
+.container .cn_image {
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */

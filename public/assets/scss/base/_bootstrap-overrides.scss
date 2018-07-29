@@ -1,0 +1,40 @@
+.btn{
+  border-radius: 0;
+
+  &.btn-primary{
+    background-color: $transparent;
+    border:3px solid $white;
+    padding:15px 30px;
+    :hover, :focus{
+      background-color: red;
+    }
+    &.btn-primary:hover,&.btn-primary:focus{
+      font-size:120%;
+    }
+  }
+
+  &.btn-secondary{
+    background-color: $transparent;
+    border:3px solid $theme-color1;
+    padding:15px 30px;
+    :hover, :focus{
+      background-color: red;
+    }
+    &.btn-secondary:hover,&.btn-secondary:focus{
+      font-size:120%;
+    }
+  }
+
+  &.btn-youtube{
+    background-color: $red_youtube;
+    border:3px solid $dark_red_youtube;
+    padding:15px 30px;
+    color: $white;
+    border:none;
+
+    &.btn-youtube:hover,&.btn-youtube:focus{
+      background-color:$dark-red-youtube;
+      color: $white;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .joke{
+    color: $white;
+    font-family: "Quicksand", sans-serif;
+    font-size: 2em;
+  }
+
+  .cn_image{
+    height: 200px;
+    margin-bottom: 30px;
+  }
+}

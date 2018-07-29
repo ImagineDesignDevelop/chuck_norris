@@ -39,8 +39,8 @@ class App extends Component {
           <div className="row justify-content-md-center">
             <div className="col col-md-8">
               <img className="cn_image" src={image} alt="Chuck Norris" />
-              <p className="lead">{this.state.joke}</p>
-              <button className="btn btn-primary btn-lg" onClick={this.next}>Next</button>
+              <p className="joke">{this.state.joke}</p>
+              <button className="btn btn-primary btn-lg" onClick={this.next}>Next Joke</button>
             </div>
           </div>
         </div>
