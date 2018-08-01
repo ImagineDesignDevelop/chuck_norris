@@ -13,7 +13,8 @@ class App extends Component {
   }
 
   componentDidMount() {
-	this.netx()  
+	const th = this
+	th.next()  
   }
 
   next() {
