@@ -13,13 +13,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    const th = this;
-      axios.get('https://api.icndb.com/jokes/random')
-        .then(function(event) {    
-          th.setState({
-            joke: JSON.stringify(event.data.value.joke)
-          });
-        })
+	this.netx()  
   }
 
   next() {
